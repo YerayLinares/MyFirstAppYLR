@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/TextBoxResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NumberBoxResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DecimalNumberBoxResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/booleanbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="411dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:ignore="UnknownId">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="60sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="1"
+            android:backgroundTint="#cc0000"
+            android:text="Atrás"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnstart"
+            android:layout_width="60sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="1"
+            android:backgroundTint="#2b78e4"
+            android:text="Inicio"
+            android:textSize="30sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
